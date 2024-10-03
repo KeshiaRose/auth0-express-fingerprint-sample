@@ -32,7 +32,7 @@ The sample app will be served at `localhost:3000`.
 
 ## Fingerprint Auth0 Action Script
 
-The core of this sample is the code within the Action script that runs in Auth0 during login. You can find that script at [auth0-scripts/login-action.js]().
+The core of this sample is the code within the Action script that runs in Auth0 during login. You can find that script at [auth0-scripts/login-action.js](https://github.com/KeshiaRose/auth0-express-fingerprint-sample/blob/master/02-Fingerprint/auth0-scripts/login-action.js).
 
 ## Full Tutorial
 
