@@ -2,7 +2,7 @@
 
 This sample app shows how to integrate Fingerprint visitor identification into an Auth0 authentication flow in an Express Node.js app. It is based on [Auth0's Express OpenID Connect Webapp Sample](https://github.com/auth0-samples/auth0-express-webapp-sample/tree/master/01-Login)
 
-See their full [walk-through](https://auth0.com/docs/quickstart/webapp/express) to get started with the base sample.
+See their full [walk-through](https://auth0.com/docs/quickstart/webapp/express) to get started with the [base sample](https://github.com/KeshiaRose/auth0-express-fingerprint-sample/tree/master/01-Login).
 
 ## Running This Sample Locally
 
