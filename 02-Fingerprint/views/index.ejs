@@ -1,0 +1,28 @@
+<%- include('partials/header') -%>
+
+<h1 class="text-4xl">Hello World</h1>
+
+<% if (locals.isAuthenticated) { %>
+<p>
+  You are logged in. <a href="/profile" class="underline">View your profile</a>.
+</p>
+<% } else { %>
+<p>
+  You are not logged in.
+  <a href="#" onclick="handleLogin()" class="underline">Login</a>.
+</p>
+<% } %> <%- include('partials/footer') -%>
+
+<script>
+  const fpPromise = import("https://fpjscdn.net/v3/PUBLIC_API_KEY").then(
+    (FingerprintJS) => FingerprintJS.load()
+  );
+
+  async function handleLogin() {
+    const fp = await fpPromise;
+    const { visitorId, requestId } = await fp.get();
+    const currentUrl = encodeURIComponent(window.location.pathname);
+
+    window.location.href = `/start-login?returnTo=${currentUrl}&visitorId=${visitorId}&requestId=${requestId}`;
+  }
+</script>
