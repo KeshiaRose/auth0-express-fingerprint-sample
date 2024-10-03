@@ -40,4 +40,4 @@ For a full guide on how to add Fingerprint to your Auth0 login flow, view our tu
 
 ## Auth0 Support
 
-> To learn more about Auth0 or for Auth0-related support, please view the [original sample README](https://github.com/auth0-samples/auth0-express-webapp-sample/tree/master/01-Login).
+To learn more about Auth0 or for Auth0-related support, please view the [original sample README](https://github.com/auth0-samples/auth0-express-webapp-sample/tree/master/01-Login).
