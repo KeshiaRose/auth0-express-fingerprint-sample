@@ -36,7 +36,7 @@ The core of this sample is the code within the Action script that runs in Auth0 
 
 ## Full Tutorial
 
-For a full guide on how to add Fingerprint to your Auth0 login flow, view our tutorial.
+For a full guide on how to add Fingerprint to your Auth0 login flow, view our [tutorial](https://fingerprint.com/blog/iam-integration-prevent-account-takeover/).
 
 ## Auth0 Support
 
